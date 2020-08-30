@@ -1,0 +1,16 @@
+name: List Repo Stars
+description: Updates README with a list of stargazers of a repository
+author: dfreilich
+
+inputs:
+  USERNAME:
+    description: 'Your GitHub username'
+    default: ${{ github.repository_owner }}
+
+branding:
+  color: yellow
+  icon: activity
+
+runs:
+  using: node12
+  main: dist/index.js

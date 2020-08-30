@@ -1,0 +1,25 @@
+{
+  "name": "list-repo-stars",
+  "version": "1.0.0",
+  "description": "Updates README with a list of stargazers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dfreilich/repo-stars-list-action.git"
+  },
+  "author": "dfreilich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dfreilich/repo-stars-list-action/issues"
+  },
+  "homepage": "https://github.com/dfreilich/repo-stars-list-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.5",
+    "@actions/github": "^4.0.0",
+    "@octokit/core": "^3.1.2",
+    "actions-toolkit": "^6.0.0"
+  }
+}
